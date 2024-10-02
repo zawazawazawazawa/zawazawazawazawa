@@ -6,6 +6,7 @@
   - 2022年7月 freee人事労務の給与チームに異動
   - 2023年1月 同チームでマネージャーを兼任
   - 2023年7月 Bundle開発チームマネージャーを兼任
+  - 2024年7月 freee人事労務人事給与領域の開発責任者
 
 ### 主な経験プロジェクト
 
@@ -85,6 +86,14 @@ Webhook機能自体会社として初めて実装する機能だったので、�
 - OpenAPI Specification
 - terraform
 - AWS
+
+### 記事
+- [freee人事労務の給与計算ロジックにLocal Write Forwardingを導入した話](https://developers.freee.co.jp/entry/introduce-local-write-forwarding)
+- [東京のチームに支社のメンバーを迎えることになってジャーマネとしてやったこと](https://developers.freee.co.jp/entry/my-remote-management)
+- [穴馬を探せ！freee人事労務のAPIで有馬記念を予想する](https://developers.freee.co.jp/entry/predict-arima_kinen-with-freee-public-api)
+- [Stripeを使って自社マーケットプレイスに決済機能を実装しました](https://developers.freee.co.jp/entry/implementation-payment-with-stripe)
+- [会計フリー Public API史上初の新バージョン移行を完遂しました](https://developers.freee.co.jp/entry/public-api-breaking-change)
+- [webhook開発は大変だったので話を聞いて欲しい](https://developers.freee.co.jp/entry/webhook-development-was-hard)
 
 ### SNS等
 - [X](https://twitter.com/poul8et6)
