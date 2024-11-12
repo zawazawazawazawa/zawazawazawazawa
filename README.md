@@ -168,10 +168,7 @@ Webhook機能自体会社として初めて実装する機能だったので、�
 
 ## 技術スタック
 - Ruby, Ruby on Rails
-- React
-- TypeScript
-- OpenAPI Specification
-- terraform
+- React, TypeScript
 - AWS
 
 ## 記事
