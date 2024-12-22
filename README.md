@@ -10,7 +10,8 @@
 
 ## 主な経験プロジェクト
 
-### 担当プロダクトのRDSへのLocal Write Forwarding導入
+<details>
+<summary>担当プロダクトのRDSへのLocal Write Forwarding導入</summary>
 
 #### 時期
 
@@ -40,8 +41,10 @@ RDSのLocal Write Forwardingという機能を使い、readerにtransactionを�
 
 詳細は記事に書いています。
 - [freee人事労務の給与計算ロジックにLocal Write Forwardingを導入した話](https://developers.freee.co.jp/entry/introduce-local-write-forwarding)
+</details>
 
-### 通勤手当の複数化対応
+<details>
+<summary>通勤手当の複数化対応</summary>
 
 #### 時期
 
@@ -89,7 +92,10 @@ https://www.nta.go.jp/users/gensen/tsukin/index2.htm
 
 実際の実装は1人のengがメインで担当してくれたが、内容があまりに複雑になってしまったのでチーム全員でコードを処理順に読んでいく勉強会を開催し、メインで実装したeng以外でも保守ができる状況を作った。
 
-### **既存の給与明細機能に役員報酬金額の追加**
+</details>
+
+<details>
+<summary>既存の給与明細機能に役員報酬金額の追加</summary>
 
 #### 時期
 
@@ -125,7 +131,10 @@ ex. 2019年4月では雇用形態: 役員、役員報酬 50000円、2020年4月�
 結果DB上で整合性は取らず、アプリケーション上でDBから取得したデータを確認してデータを上書きする対応を入れた。
 雇用形態に応じて役員報酬の金額が変わるというのはドメインの都合のため、ロジックをValue Objectに閉じ込めるた。そのおかげでアプリケーション上はdbの不整合を意識することなく利用でき、また将来的に新たに参照箇所が増えた場合もdbの不整合が漏れ出す恐れを小さくすることができた。
 
-### **Webhook機能開発**
+</details>
+
+<details>
+<summary>Webhook機能開発</summary>
 
 #### 時期
 
@@ -153,7 +162,7 @@ Webhook機能自体会社として初めて実装する機能だったので、�
 結果的に今後Webhookをトリガーするイベントや通知対象が増えたときにも対応できる、パフォーマンスが十分という理由からSNS, SQS, Lambdaを採用した。
 また、自社のサーバーからユーザーが設定した任意のURLにリクエストを送るため、セキュリティには注意を払った。
 セキュリティチームのレビューを受けた上で、LambdaをVPC内に配置し、routing tableにも制限をすることで安全性を高めた
-
+</details>
 
 ## マネジメント経験
 2021年から
